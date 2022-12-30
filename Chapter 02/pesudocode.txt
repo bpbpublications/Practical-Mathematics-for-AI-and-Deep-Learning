@@ -1,0 +1,21 @@
+// Forward Substitution
+for row_idx = 1 to m do
+	pivot_row = select_pivot_from_ref(row_idx)
+	swap_rows(pivot_row, row_idx)
+	normalize_row(row_idx)
+	for tr_row = row_indx + 1 to m do
+		for tr_col = row_idx to n do
+			A[tr_row,tr_col] = A[tr_row,tr_col] - A[row_idx,tr_col] * A[tr_row,row_idx]
+		end for
+	end for
+end for
+
+// Back Substitution
+for row_idx = m to 1 do
+	normalize_row(row_idx)
+	for tr_row = row_indx - 1 to 1 do
+		for tr_col = row_idx to n do
+			A[tr_row,tr_col] = A[tr_row,tr_col]-A[row_idx,tr_col]*A[tr_row,row_idx]
+		end for
+	end for
+end for
