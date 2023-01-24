@@ -3,7 +3,7 @@
 Mathematical Codebook to Navigate Through the Fast-changing AI Landscape
 
 This is the repository for [Practical Mathematics for AI and Deep Learning
-](https://in.bpbonline.com/products/practical-mathematics-for-ai-and-deep-learning?_pos=1&_sid=15370b0a8&_ss=r&variant=43896242536686),published by BPB Publications. 
+](https://bpbonline.com/products/practical-mathematics-for-ai-and-deep-learning),published by BPB Publications. 
 
 ## About the Book
 To construct a system that may be referred to as having ‘Artificial Intelligence,’ it is important to develop the capacity to design algorithms capable of performing data-based automated decision-making in conditions of uncertainty. Now, to accomplish this goal, one needs to have an in-depth understanding of the more sophisticated components of linear algebra, vector calculus, probability, and statistics. This book walks you through every mathematical algorithm, as well as its architecture, its operation, and its design so that you can understand how any artificial intelligence system operates.
